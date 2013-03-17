@@ -1,6 +1,10 @@
 design-patterns-ruby
 ====================
 
+[![Build Status](https://travis-ci.org/emilsoman/design-patterns-ruby.png?branch=master)](https://travis-ci.org/emilsoman/design-patterns-ruby)
+[![Coverage Status](https://coveralls.io/repos/emilsoman/design-patterns-ruby/badge.png?branch=master)](https://coveralls.io/r/emilsoman/design-patterns-ruby)
+[![Code Climate](https://codeclimate.com/github/emilsoman/design-patterns-ruby.png)](https://codeclimate.com/github/emilsoman/design-patterns-ruby)
+
 Here's the plan:
 
 1. Add all design patterns as Ruby examples
