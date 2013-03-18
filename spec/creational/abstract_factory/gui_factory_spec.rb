@@ -1,6 +1,6 @@
 require 'spec_helper'
 require 'creational/abstract_factory/gui_factory'
-include AbstractFactory::GuiFactoryExample
+include Creational::AbstractFactory::GuiFactoryExample
 describe Application do
   describe "#run" do
     let(:application) {Application.new(gui_factory)}
