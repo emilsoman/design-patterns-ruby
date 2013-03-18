@@ -21,7 +21,8 @@ Explain how the example works.
 > Design patterns that deal with object creation mechanisms,
   trying to create objects in a manner suitable to the situation.
   
-* Add Patterns and links to examples here
+* [Abstract Factory](http://rdoc.info/github/emilsoman/design-patterns-ruby/master/frames) -
+  For creating and using families of related/dependent objects
 
 ## Structural Patterns
 * Explain what a Structural Pattern means
