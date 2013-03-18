@@ -1,5 +1,6 @@
 require 'spec_helper'
 require 'creational/abstract_factory/gui_factory'
+include AbstractFactory::GuiFactoryExample
 describe Application do
   describe "#run" do
     let(:application) {Application.new(gui_factory)}
@@ -26,8 +27,8 @@ describe GuiFactory do
       gui_factory = GuiFactory.new
       class TestFactory < GuiFactory; end
       test_factory = TestFactory.new
-      expect{gui_factory.create_button}.to raise_error(NotImplementedError, "GuiFactory does not implement create_button()")
-      expect{test_factory.create_button}.to raise_error(NotImplementedError, "TestFactory does not implement create_button()")
+      expect{gui_factory.create_button}.to raise_error(NotImplementedError, "#{gui_factory.class.name} does not implement create_button()")
+      expect{test_factory.create_button}.to raise_error(NotImplementedError, "#{test_factory.class.name} does not implement create_button()")
     end
   end
 end
@@ -35,11 +36,11 @@ end
 describe AbstractButton do
   describe "#paint" do
     it "should be an abstract method" do
-      gui_factory = AbstractButton.new
+      abstract_button = AbstractButton.new
       class TestButton < AbstractButton; end
       test_button = TestButton.new
-      expect{gui_factory.paint}.to raise_error(NotImplementedError, "AbstractButton does not implement paint()")
-      expect{test_button.paint}.to raise_error(NotImplementedError, "TestButton does not implement paint()")
+      expect{abstract_button.paint}.to raise_error(NotImplementedError, "#{abstract_button.class.name} does not implement paint()")
+      expect{test_button.paint}.to raise_error(NotImplementedError, "#{test_button.class.name} does not implement paint()")
     end
   end
 end
