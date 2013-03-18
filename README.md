@@ -5,6 +5,8 @@ design-patterns-ruby
 [![Coverage Status](https://coveralls.io/repos/emilsoman/design-patterns-ruby/badge.png?branch=master)](https://coveralls.io/r/emilsoman/design-patterns-ruby)
 [![Code Climate](https://codeclimate.com/github/emilsoman/design-patterns-ruby.png)](https://codeclimate.com/github/emilsoman/design-patterns-ruby)
 
+Browse throught the [Rdocs](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/frames). It has READMEs and heavily commented code examples.
+
 Here's the plan:
 
 1. Add all design patterns as Ruby examples
