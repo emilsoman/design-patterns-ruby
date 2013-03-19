@@ -16,4 +16,4 @@ Ideally, the decision of which group to choose should be made by the application
 and the application shouldn't know anything apart from the interfaces on the objects it needs to know.
 
 ## Examples
-[GUI Factory](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/frames)
+[GUI Factory](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/AbstractFactory/GuiFactoryExample)
