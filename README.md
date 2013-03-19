@@ -22,7 +22,7 @@ Explain how the example works.
 > Design patterns that deal with object creation mechanisms,
   trying to create objects in a manner suitable to the situation.
   
-* [Abstract Factory](http://rdoc.info/github/emilsoman/design-patterns-ruby/master/frames) -
+* [Abstract Factory](/creational/abstract_factory) -
   For creating and using families of related/dependent objects
 
 ## Structural Patterns
