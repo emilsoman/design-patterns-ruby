@@ -10,10 +10,11 @@ It contains explanations of each pattern example.
 
 Here's the plan:
 
-1. Add all design patterns as Ruby examples
-2. Each example should have 100% green test coverage
+1. Add all design patterns as Ruby examples.
+2. Each example should have 100% green test coverage.
 3. Each example should have RDocs/YARDocs that explain what each class does.
-4. If there is a Ruby way that bakes in the pattern in the language, do not re-invent the wheel and show the Ruby way.
+4. Each pattern should have its own README.md explaining it.
+5. If there is a Ruby way that bakes in the pattern in the language, do not re-invent the wheel and show the Ruby way.
 Explain how the example works.
 
 # Design Patterns
