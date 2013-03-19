@@ -6,6 +6,7 @@ design-patterns-ruby
 [![Code Climate](https://codeclimate.com/github/emilsoman/design-patterns-ruby.png)](https://codeclimate.com/github/emilsoman/design-patterns-ruby)
 
 Browse through the [Documentation](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/frames).
+It contains explanations of each pattern example.
 
 Here's the plan:
 
