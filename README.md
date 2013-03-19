@@ -18,7 +18,7 @@ Explain how the example works.
 
 # Design Patterns
 
-## Creational Patterns
+## [Creational Patterns](/creational)
 > Design patterns that deal with object creation mechanisms,
   trying to create objects in a manner suitable to the situation.
   
