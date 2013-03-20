@@ -42,7 +42,6 @@ rake
 -------
 
 ## Contributing
-Here's the plan:
 
 _Step 1_ : Fork
 
