@@ -8,15 +8,6 @@ design-patterns-ruby
 Browse through the [Documentation](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/frames).
 It contains explanations of each pattern example.
 
-Here's the plan:
-
-1. Add all design patterns as Ruby examples.
-2. Each example should have 100% green test coverage.
-3. Each example should have RDocs/YARDocs that explain what each class does.
-4. Each pattern should have its own README.md explaining it.
-5. If there is a Ruby way that bakes in the pattern in the language, do not re-invent the wheel and show the Ruby way.
-Explain how the example works.
-
 # Design Patterns
 
 ## [Creational Patterns](/creational)
@@ -33,5 +24,21 @@ Explain how the example works.
 ## Behavioral Patterns
 * Explain what a Behavioral Pattern means
 * Add Patterns and links to examples here
+
+# Contributing
+Here's the plan:
+
+_Step 1_ : Fork
+
+_Step 2_ :
+
+1. Add Design Patterns as Ruby examples.
+2. Each example should have 100% green test coverage.
+3. Each example should have RDocs/YARDocs that explain what each class does.
+4. Each pattern should have its own README.md explaining it.
+5. If there is a Ruby way that bakes in the pattern in the language, do not re-invent the wheel and show the Ruby way.
+Explain how the example works.
+
+_Step 3_ : Send a pull request
 
 
