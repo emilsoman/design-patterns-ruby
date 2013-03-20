@@ -5,34 +5,50 @@ design-patterns-ruby
 [![Coverage Status](https://coveralls.io/repos/emilsoman/design-patterns-ruby/badge.png?branch=master)](https://coveralls.io/r/emilsoman/design-patterns-ruby)
 [![Code Climate](https://codeclimate.com/github/emilsoman/design-patterns-ruby.png)](https://codeclimate.com/github/emilsoman/design-patterns-ruby)
 
-Browse through the [Documentation](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/frames).
-It contains explanations of each pattern example.
+-------
 
-# Design Patterns
+## Design Patterns
 
-## [Creational Patterns](/creational)
+### [Creational Patterns](/creational)
 > Design patterns that deal with object creation mechanisms,
   trying to create objects in a manner suitable to the situation.
   
 * [Abstract Factory](/creational/abstract_factory) -
   For creating and using families of related/dependent objects
 
-## Structural Patterns
+### Structural Patterns
 * Explain what a Structural Pattern means
 * Add Patterns and links to examples here
 
-## Behavioral Patterns
+### Behavioral Patterns
 * Explain what a Behavioral Pattern means
 * Add Patterns and links to examples here
 
-# Contributing
+-------
+
+## About reading code and running tests
+
+The code is heavily documented, and has 100% test coverage. Browse through
+the [Documentation online](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/frames).
+It contains explanations of each pattern example. It's also recommended
+to go throught the tests in `spec/` directory to get an idea of how the examples
+work.
+
+To run the tests :
+```shell
+bundle install
+rake
+```
+-------
+
+## Contributing
 Here's the plan:
 
 _Step 1_ : Fork
 
 _Step 2_ :
 
-1. Add Design Patterns as Ruby examples.
+1. Add Ruby examples to Design Patterns.
 2. Each example should have 100% green test coverage.
 3. Each example should have RDocs/YARDocs that explain what each class does.
 4. Each pattern should have its own README.md explaining it.
