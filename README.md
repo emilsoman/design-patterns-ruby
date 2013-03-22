@@ -16,7 +16,7 @@ design-patterns-ruby
 * [Abstract Factory](/creational/abstract_factory) -
   For creating and using families of related/dependent objects
 * [Builder](/creational/builder) -
-  Coming soon
+  Coming up next
 
 ### Structural Patterns
 * Explain what a Structural Pattern means
