@@ -13,16 +13,13 @@ This becomes a maintenance hell later.
 Ideally, the decision of which group to choose should be made by the application which uses the objects,
 and the application shouldn't know anything apart from the interfaces on the objects it needs to know.
 
-## Caveats
+## Implementation notes
 1. The Client believes that the Factory family it uses during runtime has all the ConcreteProducts it needs,
 and also that same product from each family has the same interface. This may cause problems at run time
 with dynamically typed languages like Ruby, since the Concrete classes aren't subclasses of an Abstract Class
 which enforces an inteface to be implemented.
 2. For concrete classes that derive from an Abstract interface, it's run time safe. But it's difficult to
 create a new product. We need to add the interface in the Abstract class and all Subclasses.
-
-## Implementation notes
-TODO - Things to consider while implementing the pattern.
 
 ## Related Patterns
 TODO - Add how other patterns are related.
