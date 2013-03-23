@@ -17,6 +17,28 @@ After adding another type of complex object which can be built from the same dat
 the client holds, you end up with a lot of conditionals in your client. Also you end
 up repeating the same building logic if a different client needs to create the same type of object.
 
+## Collaborators
+### AbstractBuilder
+This class declares the interfaces to create parts of a product object
+
+### ConcreteBuilder
+This class implements the interfaces to build one type of product, keeps track of the
+product which is created step-by-step, and provides a method to get the built product.
+You'll need as many ConcreteBuilders as the number of object types you need to create,
+where each type of object has a different internal representation.
+
+### Director
+This class uses the AbstractBuilder's interfaces to create a product in multiple steps.
+The Directory only knows the steps to create an object. What goes into the object at each
+step is unknown to it.
+
+### Product
+A product represents the complex object under construction.
+
+### Client
+Asks the Director to create an object using a ConcreteBuilder.
+
+
 ## Implementation notes
 1. The Director needs to know the steps for creating a complex object. And all complex object types
 have to implement the steps.
