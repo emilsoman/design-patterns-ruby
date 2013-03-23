@@ -37,10 +37,10 @@ to go throught the tests in `spec/` directory to get an idea of how the examples
 work.
 
 To run the tests :
-```shell
-bundle install
-rake
-```
+
+    bundle install
+    rake
+
 -------
 
 ## Contributing
