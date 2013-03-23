@@ -18,6 +18,7 @@ module Creational
     #
     module GuiFactoryExample
 
+      # [Role] AbstractFactory
       # This is the AbstractFactory class.
       # You don't really need this in Ruby thanks to duck typing.
       # But we'll make sure every subclass implements the instance methods.
@@ -30,6 +31,7 @@ module Creational
         end
       end
 
+      # [Role] AbstractProduct
       # This is the AbstractProduct class.
       # You don't really need this in Ruby thanks to duck typing.
       # But we'll make sure every subclass implements the instance methods.
@@ -42,6 +44,7 @@ module Creational
         end
       end
 
+      # [Role] ConcreteFactory
       # This is a ConcreteFactory class
       # It implements the operations to create
       # a ConcreteProduct object, in this case,
@@ -54,6 +57,7 @@ module Creational
         end
       end
 
+      # [Role] ConcreteFactory
       # This is a ConcreteFactory class
       # It implements the operations to create
       # a ConcreteProduct object, in this case,
@@ -66,6 +70,7 @@ module Creational
         end
       end
 
+      # [Role] ConcreteProduct  
       # This is a ConcreteProduct class
       # How to create a WinButton is abstracted
       # into this class.
@@ -77,6 +82,7 @@ module Creational
         end
       end
 
+      # [Role] ConcreteProduct
       # This is a ConcreteProduct class
       # How to create an OsxButton is abstracted
       # into this class.
@@ -88,6 +94,7 @@ module Creational
         end
       end
 
+      # [Role] Client
       # This is the Client.
       # It uses only those interfaces provided by
       # the AbstractFactory which is GuiFactory
