@@ -30,6 +30,9 @@ its family. Each family of products has one ConcreteFactory class.
 A ConcreteProduct represents one product of one family. This class implements the AbstractProduct's interface.
 That means the same type of product in each family has the same interface.
 
+### Client
+Uses only the interfaces provided by the AbstractFactory and AbstractProducts
+
 ## Implementation notes
 1. The Client believes that the Factory family it uses during runtime has all the ConcreteProducts it needs,
 and also that same product from each family has the same interface. This may cause problems at run time

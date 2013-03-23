@@ -15,7 +15,12 @@ module Creational
     #            methods to return products of their families.
     #            WinButton and OsxButtons are the products that belong
     #            to Win and OSX families respectively
-    #
+    # [Collaborators]
+    #           AbstractFactory:: {GuiFactory}
+    #           AbstractProduct:: {AbstractButton}
+    #           ConcreteFactories:: {WinFactory}, {OsxFactory}
+    #           ConcreteButtons:: {WinButton}, {OsxButton}
+    #           Client:: {Application}
     module GuiFactoryExample
 
       # [Role] AbstractFactory
