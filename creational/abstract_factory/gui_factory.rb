@@ -54,7 +54,7 @@ module Creational
       # It implements the operations to create
       # a ConcreteProduct object, in this case,
       # a WinButton object.
-      # It should override all methods defined
+      # It should override all methods declared
       # in AbstractFactory
       class WinFactory < GuiFactory
         def create_button
@@ -67,7 +67,7 @@ module Creational
       # It implements the operations to create
       # a ConcreteProduct object, in this case,
       # an OsxButton object.
-      # It should override all methods defined
+      # It should override all methods declared
       # in AbstractFactory
       class OsxFactory < GuiFactory
         def create_button
@@ -79,7 +79,7 @@ module Creational
       # This is a ConcreteProduct class
       # How to create a WinButton is abstracted
       # into this class.
-      # It should override all methods defined
+      # It should override all methods declared
       # in AbstractProduct
       class WinButton < AbstractButton
         def paint
@@ -91,7 +91,7 @@ module Creational
       # This is a ConcreteProduct class
       # How to create an OsxButton is abstracted
       # into this class.
-      # It should override all methods defined
+      # It should override all methods declared
       # in AbstractProduct
       class OsxButton < AbstractButton
         def paint

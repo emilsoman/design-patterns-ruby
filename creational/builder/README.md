@@ -50,4 +50,4 @@ steps that have no effect on the internal representation of that type of complex
 TODO - Add how other patterns are related.
 
 ## Examples
-TODO
+[Email Builder](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/Builder/EmailBuilderExample)

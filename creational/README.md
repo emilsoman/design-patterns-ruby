@@ -9,3 +9,8 @@ Creational Patterns
 Provides an interface for creating families of objects without specifying their concrete classes
 ### Examples
 [GUI factory](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/AbstractFactory/GuiFactoryExample)
+
+## 1. [Builder](/creational/builder)
+Helps you create complex objects step-by-step without coupling creational steps and internal representation if created object
+### Examples
+[Email Builder](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/Builder/EmailBuilderExample)
