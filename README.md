@@ -17,6 +17,8 @@ design-patterns-ruby
   For creating and using families of related/dependent objects
 * [Builder](/creational/builder) -
   For creating different types of complex objects step by step
+* [Factory Method](/creational/factory_method) -
+  Up next
 
 ### Structural Patterns
 * Explain what a Structural Pattern means
