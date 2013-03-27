@@ -7,7 +7,9 @@ change the type of object easily without opening the client.
 
 ## Scenarios
 Use Factory Method when a class should care about only the behaviour of an object it uses
-and not its type.
+and not its type. Factory Method is a good pattern to remove coupling between the client
+that uses an object and the type of that object. The client who needs to use the object
+gets it from the Factory method instead of specifying the type within itself.
 
 ## Motivation
 Consider a client that needs to use an object to carry out its work, but it's only concerned about the
