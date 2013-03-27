@@ -42,7 +42,7 @@ which enforces an inteface to be implemented.
 create a new product. We need to add the interface in the Abstract class and all Subclasses.
 
 ## Related Patterns
-TODO - Add how other patterns are related.
+Factory Method - Abstract Factory is implemented using Factory Methods.
 
 
 ## Examples
