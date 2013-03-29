@@ -10,7 +10,13 @@ Provides an interface for creating families of objects without specifying their 
 ### Examples
 [GUI factory](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/AbstractFactory/GuiFactoryExample)
 
-## 1. [Builder](/creational/builder)
+## 2. [Builder](/creational/builder)
 Helps you create complex objects step-by-step without coupling creational steps and internal representation if created object
 ### Examples
 [Email Builder](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/Builder/EmailBuilderExample)
+
+
+## 3. [Factory Method](/creational/factory_method)
+TODO
+### Examples
+TODO
