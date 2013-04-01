@@ -17,6 +17,6 @@ Helps you create complex objects step-by-step without coupling creational steps 
 
 
 ## 3. [Factory Method](/creational/factory_method)
-TODO
+Provides an interface for creating an object to be used in a client which allows to change the type of object easily without opening the client.
 ### Examples
-TODO
+[VersionControlFactory](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/FactoryMethod/VersionControlFactoryExample)
