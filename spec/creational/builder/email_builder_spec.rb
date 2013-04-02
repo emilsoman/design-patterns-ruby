@@ -46,9 +46,9 @@ module Creational::Builder::EmailBuilderExample
     end
     class TestBuilderWithoutInitialize < EmailBuilder; end
     describe "#new" do
-      it "should be an abstract method" do
-        expect{EmailBuilder.new}.to raise_error(NotImplementedError, "#{EmailBuilder.name} does not implement initialize()")
-        expect{TestBuilderWithoutInitialize.new}.to raise_error(NotImplementedError, "#{TestBuilderWithoutInitialize.name} does not implement initialize()")
+      it "should initialize email" do
+        email_builder = EmailBuilder.new
+        email_builder.email.should be_an_instance_of Email
       end
     end
     describe "#set_subject" do

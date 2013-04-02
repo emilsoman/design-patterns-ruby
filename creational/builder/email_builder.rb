@@ -34,8 +34,9 @@ module Creational
       # That makes sure every subclass of EmailBuilder overrides its methods,
       # else it raises a NotImplemented error
       class EmailBuilder
+        attr_accessor :email
         def initialize
-          raise NotImplementedError, "#{self.class.name} does not implement initialize()"
+          @email = Email.new
         end
         def set_subject
           raise NotImplementedError, "#{self.class.name} does not implement set_subject()"
@@ -54,10 +55,6 @@ module Creational
       # It should override all methods declared
       # in EmailBuilder
       class DarkEmailBuilder < EmailBuilder
-        attr_accessor :email
-        def initialize
-          @email = Email.new
-        end
         def set_subject(content)
           content = "dark #{content}"
           @email.subject = content
@@ -78,10 +75,6 @@ module Creational
       # It should override all methods declared
       # in EmailBuilder
       class WhiteEmailBuilder < EmailBuilder
-        attr_accessor :email
-        def initialize
-          @email = Email.new
-        end
         def set_subject(content)
           content = "white #{content}"
           @email.subject = content
