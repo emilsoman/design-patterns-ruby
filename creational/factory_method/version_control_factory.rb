@@ -21,7 +21,7 @@ module Creational
     #            interfaces without caring if it's Git or SVN.
     # [Collaborators]
     #           Factory:: {VersionControlFactory}
-    #           Products:: {GitVersionControl, SvnVersionControl}
+    #           Products:: {GitVersionControl}, {SvnVersionControl}
     #           Client:: {Application}
     module VersionControlFactoryExample
       # [Role] Factory
