@@ -49,4 +49,4 @@ Abstract Factory Method - Abstract Factory is implemented using Factory Methods.
 
 
 ## Examples
-[VersionControlFactory](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/FactoryMethod/VersionControlFactoryExample) (getting ready)
+[VersionControlFactory](http://rubydoc.info/github/emilsoman/design-patterns-ruby/master/Creational/FactoryMethod/VersionControlFactoryExample)
