@@ -19,6 +19,8 @@ design-patterns-ruby
   For creating different types of complex objects step by step
 * [Factory Method](/creational/factory_method) -
   For creating one type of object out of many which can be used in its place
+* [Prototype](/creational/prototype) -
+  Up next
 
 ### Structural Patterns
 * Explain what a Structural Pattern means
