@@ -20,7 +20,9 @@ design-patterns-ruby
 * [Factory Method](/creational/factory_method) -
   For creating one type of object out of many which can be used in its place
 * [Prototype](/creational/prototype) -
-  Up next
+  Up next.
+* [Singleton](/creational/singleton) -
+  Coming soon
 
 ### Structural Patterns
 * Explain what a Structural Pattern means
