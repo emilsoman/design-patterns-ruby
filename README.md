@@ -22,7 +22,7 @@ design-patterns-ruby
 * [Prototype](/creational/prototype) -
   Up next.
 * [Singleton](/creational/singleton) -
-  Coming soon
+  Coming soon ( Explain Ruby's singleton too )
 
 ### Structural Patterns
 * Explain what a Structural Pattern means
