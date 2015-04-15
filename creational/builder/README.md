@@ -1,6 +1,6 @@
 Builder
 =======
-This pattern works by creates an abstract plan describing the steps for creating a complex object,
+This pattern works by creating an abstract plan describing the steps for creating a complex object,
 and then carry out the same steps on different implementations, as long as each implementation
 implements all the steps.
 
@@ -29,7 +29,7 @@ where each type of object has a different internal representation.
 
 ### Director
 This class uses the AbstractBuilder's interfaces to create a product in multiple steps.
-The Directory only knows the steps to create an object. What goes into the object at each
+The Director only knows the steps to create an object. What goes into the object at each
 step is unknown to it.
 
 ### Product
